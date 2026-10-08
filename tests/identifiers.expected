@@ -1,0 +1,39 @@
+String scanned: [#Thisisanum]
+	->Token kind: <IDNUM>
+	->Token value: "#Thisisanum"
+String scanned: [#ttttHISisanothernum]
+	->Token kind: <IDNUM>
+	->Token value: "#ttttHISisanothernum"
+String scanned: [v_th1111110erer0er8]
+	->Token kind: <IDVEC>
+	->Token value: "v_th1111110erer0er8"
+String scanned: [18]
+	->Token kind: <NUMBER>
+	->Token value: 18
+String scanned: [?bbbbool123]
+	->Token kind: <IDBOOL>
+	->Token value: "?bbbbool123"
+String scanned: [?returning]
+	->Token kind: <IDBOOL>
+	->Token value: "?returning"
+String scanned: [v_3iffy]
+	->Token kind: <IDVEC>
+	->Token value: "v_3iffy"
+String scanned: [M_123Functional]
+	->Token kind: <IDMAT>
+	->Token value: "M_123Functional"
+String scanned: [v_thisisavec]
+	->Token kind: <IDVEC>
+	->Token value: "v_thisisavec"
+String scanned: [#Andanum]
+	->Token kind: <IDNUM>
+	->Token value: "#Andanum"
+String scanned: [?B42]
+	->Token kind: <IDBOOL>
+	->Token value: "?B42"
+String scanned: [M_12mat]
+	->Token kind: <IDMAT>
+	->Token value: "M_12mat"
+String scanned: [v_13vec]
+	->Token kind: <IDVEC>
+	->Token value: "v_13vec"

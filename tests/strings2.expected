@@ -1,0 +1,19 @@
+String scanned: ["Test that escape characters are properly handled"]
+	->Token kind: <STRING>
+	->Token value: "Test that escape characters are properly handled"
+String scanned: ["A tab between parentheses: (\t) "]
+	->Token kind: <STRING>
+	->Token value: "A tab between parentheses: (	) "
+String scanned: ["A return between parentheses: (\n) "]
+	->Token kind: <STRING>
+	->Token value: "A return between parentheses: (
+) "
+String scanned: ["A backslash between parentheses: (\\) "]
+	->Token kind: <STRING>
+	->Token value: "A backslash between parentheses: (\) "
+String scanned: ["A string without tabs or returns between parentheses: (\\t\\n) "]
+	->Token kind: <STRING>
+	->Token value: "A string without tabs or returns between parentheses: (\t\n) "
+String scanned: ["This string should print normally."]
+	->Token kind: <STRING>
+	->Token value: "This string should print normally."

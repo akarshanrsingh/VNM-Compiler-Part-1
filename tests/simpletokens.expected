@@ -1,0 +1,75 @@
+String scanned: [<]
+	->Token kind: "<"
+	->Token value: null
+String scanned: [<=]
+	->Token kind: "<="
+	->Token value: null
+String scanned: [>]
+	->Token kind: ">"
+	->Token value: null
+String scanned: [>=]
+	->Token kind: ">="
+	->Token value: null
+String scanned: [!=]
+	->Token kind: "!="
+	->Token value: null
+String scanned: [==]
+	->Token kind: "=="
+	->Token value: null
+String scanned: [=in]
+	->Token kind: "=IN"
+	->Token value: null
+String scanned: [!in]
+	->Token kind: "!IN"
+	->Token value: null
+String scanned: [:=]
+	->Token kind: ":="
+	->Token value: null
+String scanned: [+]
+	->Token kind: "+"
+	->Token value: null
+String scanned: [-]
+	->Token kind: "-"
+	->Token value: null
+String scanned: [*]
+	->Token kind: "*"
+	->Token value: null
+String scanned: [/]
+	->Token kind: "/"
+	->Token value: null
+String scanned: [&]
+	->Token kind: "&"
+	->Token value: null
+String scanned: [|]
+	->Token kind: "|"
+	->Token value: null
+String scanned: [!]
+	->Token kind: "!"
+	->Token value: null
+String scanned: [(]
+	->Token kind: "("
+	->Token value: null
+String scanned: [)]
+	->Token kind: ")"
+	->Token value: null
+String scanned: [[]
+	->Token kind: "["
+	->Token value: null
+String scanned: []]
+	->Token kind: "]"
+	->Token value: null
+String scanned: [,]
+	->Token kind: ","
+	->Token value: null
+String scanned: [;]
+	->Token kind: ";"
+	->Token value: null
+String scanned: [#1]
+	->Token kind: "#1"
+	->Token value: null
+String scanned: [#0]
+	->Token kind: "#0"
+	->Token value: null
+String scanned: [..]
+	->Token kind: ".."
+	->Token value: null

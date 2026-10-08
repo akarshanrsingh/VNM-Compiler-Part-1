@@ -1,0 +1,6 @@
+""
+"Test alphabet1: abcdefghijklmnopqrstuvwxyz"
+"Test alphabet2: ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+"Test digits: 0123456789"
+"Test other chars: `~!@#$%^&**() -_=+[{]}|;:',<.>/?"
+"Multiple strings on the same line:" "string1""string2"

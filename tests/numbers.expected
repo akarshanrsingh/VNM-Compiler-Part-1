@@ -1,0 +1,30 @@
+String scanned: [0]
+	->Token kind: <NUMBER>
+	->Token value: 0
+String scanned: [1]
+	->Token kind: <NUMBER>
+	->Token value: 1
+String scanned: [9]
+	->Token kind: <NUMBER>
+	->Token value: 9
+String scanned: [10]
+	->Token kind: <NUMBER>
+	->Token value: 10
+String scanned: [123]
+	->Token kind: <NUMBER>
+	->Token value: 123
+String scanned: [45354]
+	->Token kind: <NUMBER>
+	->Token value: 45354
+String scanned: [2147483647]
+	->Token kind: <NUMBER>
+	->Token value: 2147483647
+String scanned: [000000]
+	->Token kind: <NUMBER>
+	->Token value: 0
+String scanned: [01]
+	->Token kind: <NUMBER>
+	->Token value: 1
+String scanned: [000502000]
+	->Token kind: <NUMBER>
+	->Token value: 502000

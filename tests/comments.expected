@@ -1,0 +1,6 @@
+String scanned: [#number]
+	->Token kind: <IDNUM>
+	->Token value: "#number"
+String scanned: [?BYEbyebyebool]
+	->Token kind: <IDBOOL>
+	->Token value: "?BYEbyebyebool"

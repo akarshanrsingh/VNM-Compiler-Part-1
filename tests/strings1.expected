@@ -1,0 +1,24 @@
+String scanned: [""]
+	->Token kind: <STRING>
+	->Token value: ""
+String scanned: ["Test alphabet1: abcdefghijklmnopqrstuvwxyz"]
+	->Token kind: <STRING>
+	->Token value: "Test alphabet1: abcdefghijklmnopqrstuvwxyz"
+String scanned: ["Test alphabet2: ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+	->Token kind: <STRING>
+	->Token value: "Test alphabet2: ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+String scanned: ["Test digits: 0123456789"]
+	->Token kind: <STRING>
+	->Token value: "Test digits: 0123456789"
+String scanned: ["Test other chars: `~!@#$%^&**() -_=+[{]}|;:',<.>/?"]
+	->Token kind: <STRING>
+	->Token value: "Test other chars: `~!@#$%^&**() -_=+[{]}|;:',<.>/?"
+String scanned: ["Multiple strings on the same line:"]
+	->Token kind: <STRING>
+	->Token value: "Multiple strings on the same line:"
+String scanned: ["string1"]
+	->Token kind: <STRING>
+	->Token value: "string1"
+String scanned: ["string2"]
+	->Token kind: <STRING>
+	->Token value: "string2"

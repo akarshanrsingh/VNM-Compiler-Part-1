@@ -1,0 +1,6 @@
+"Test that escape characters are properly handled"
+"A tab between parentheses: (\t) "
+"A return between parentheses: (\n) "
+"A backslash between parentheses: (\\) "
+"A string without tabs or returns between parentheses: (\\t\\n) "
+"This string should print normally."

@@ -1,0 +1,8 @@
+./t keywords
+./t simpletokens
+./t numbers
+./t identifiers
+./t comments
+./t strings1
+./t strings2
+./t strings3

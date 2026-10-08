@@ -1,0 +1,60 @@
+String scanned: [do]
+	->Token kind: "DO"
+	->Token value: null
+String scanned: [elif]
+	->Token kind: "ELIF"
+	->Token value: null
+String scanned: [else]
+	->Token kind: "ELSE"
+	->Token value: null
+String scanned: [fi]
+	->Token kind: "FI"
+	->Token value: null
+String scanned: [for]
+	->Token kind: "FOR"
+	->Token value: null
+String scanned: [function]
+	->Token kind: "FUNCTION"
+	->Token value: null
+String scanned: [if]
+	->Token kind: "IF"
+	->Token value: null
+String scanned: [end]
+	->Token kind: "END"
+	->Token value: null
+String scanned: [print]
+	->Token kind: "PRINT"
+	->Token value: null
+String scanned: [println]
+	->Token kind: "PRINTLN"
+	->Token value: null
+String scanned: [return]
+	->Token kind: "RETURN"
+	->Token value: null
+String scanned: [var]
+	->Token kind: "VAR"
+	->Token value: null
+String scanned: [then]
+	->Token kind: "THEN"
+	->Token value: null
+String scanned: [while]
+	->Token kind: "WHILE"
+	->Token value: null
+String scanned: [RETURN]
+	->Token kind: "RETURN"
+	->Token value: null
+String scanned: [dO]
+	->Token kind: "DO"
+	->Token value: null
+String scanned: [Else]
+	->Token kind: "ELSE"
+	->Token value: null
+String scanned: [wHIle]
+	->Token kind: "WHILE"
+	->Token value: null
+String scanned: [for]
+	->Token kind: "FOR"
+	->Token value: null
+String scanned: [Return]
+	->Token kind: "RETURN"
+	->Token value: null

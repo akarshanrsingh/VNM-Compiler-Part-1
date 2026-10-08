@@ -1,0 +1,10 @@
+// This is by far the trickiest test, especially the complicated string on line 9!
+"Test that escape characters are properly handled"
+"A tab between parentheses: (\t) "
+"A return between parentheses: (\n) "
+"A backslash between parentheses: (\\) "
+"A string without tabs or returns between parentheses: (\\t\\n) "
+"A quote between parentheses: (\") "
+"3 quotes between parentheses: (\"\"\") "
+"Complicated string: \n\t\"\" \\\n\\t\\\"\\\\"
+"This string should print normally."
