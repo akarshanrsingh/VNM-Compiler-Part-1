@@ -80,39 +80,35 @@ The project is organized into the following components:
 
 ### 1. Scanner and Grammar Files
 
-| File | Description |
-| `VNM.jj` | JavaCC grammar defining lexical rules and token patterns. |
-| `VNM.java` | JavaCC-generated scanner entry class. |
-| `VNMConstants.java` | Defines token constants used by the scanner. |
-| `VNMTokenManager.java` | Handles token recognition and lexical processing. |
-| `SimpleCharStream.java` | Manages the input character stream. |
+- **`VNM.jj`** — JavaCC grammar defining lexical rules and token patterns.
+- **`VNM.java`** — JavaCC-generated scanner class.
+- **`VNMConstants.java`** — Defines token constants used by the scanner.
+- **`VNMTokenManager.java`** — Handles token recognition and lexical processing.
+- **`SimpleCharStream.java`** — Manages the input character stream.
 
 ### 2. Token Implementation
 
-| File | Description |
-| `Token.java` | Base class for representing tokens. |
-| `NumberToken.java` | Stores numeric token values. |
-| `StringToken.java` | Handles string values and escape sequences. |
-| `IdNumToken.java` | Represents numeric identifiers. |
-| `IdBoolToken.java` | Represents Boolean identifiers. |
-| `IdVecToken.java` | Represents vector identifiers. |
-| `IdMatToken.java` | Represents matrix identifiers. |
+- **`Token.java`** — Base class for representing tokens.
+- **`NumberToken.java`** — Stores numeric token values.
+- **`StringToken.java`** — Handles string values and escape sequences.
+- **`IdNumToken.java`** — Represents numeric identifiers.
+- **`IdBoolToken.java`** — Represents Boolean identifiers.
+- **`IdVecToken.java`** — Represents vector identifiers.
+- **`IdMatToken.java`** — Represents matrix identifiers.
 
 ### 3. Error Handling and Testing
 
-| File | Description |
-| `ParseException.java` | Defines parsing-related exceptions. |
-| `TokenMgrError.java` | Handles lexical errors. |
-| `TestVNM.java` | Provides the scanner testing interface. |
-| `tests/` | Contains test inputs and expected outputs. |
+- **`ParseException.java`** — Defines parsing-related exceptions.
+- **`TokenMgrError.java`** — Handles lexical errors.
+- **`TestVNM.java`** — Provides the scanner testing interface.
+- **`tests/`** — Contains test inputs and expected outputs.
 
 ### 4. Build and Automation
 
-| File | Description |
-| `makefile` | Automates project compilation. |
-| `runtests` | Runs the automated test suite. |
-| `t` | Supports individual test execution. |
-| `.gitignore` | Excludes generated and IDE-specific files from Git. |
+- **`makefile`** — Automates project compilation.
+- **`runtests`** — Runs the automated test suite.
+- **`t`** — Supports individual test execution.
+- **`.gitignore`** — Excludes generated and IDE-specific files from Git.
 
 ## Implementation Details
 
