@@ -23,12 +23,12 @@ The implementation uses JavaCC to define lexical rules and generate the Java cla
 - **Automated Testing:** Includes test inputs, expected outputs, and shell scripts for scanner validation.
 
 ## Technologies Used
-| Technology | Purpose |
-| Java       | Scanner implementation and token processing |
-| JavaCC     | Lexical grammar definition and scanner generation |
-| GNU Make   | Build automation |
-| Shell Scripts | Automated testing |
-| Git & GitHub | Version control and project management |
+
+- **Java** — Scanner implementation and token processing.
+- **JavaCC** — Lexical grammar definition and scanner generation.
+- **GNU Make** — Build automation.
+- **Shell Scripts** — Automated testing.
+- **Git & GitHub** — Version control and project management.
 
 ## Token Recognition
 
@@ -36,44 +36,45 @@ The VNM scanner recognizes several categories of tokens.
 
 ### Operators and Symbols
 
-| Category | Supported Tokens |
-| Comparison | `<`, `<=`, `>`, `>=`, `==`, `!=` |
-| Membership | `=in`, `!in` |
-| Arithmetic | `+`, `-`, `*`, `/` |
-| Logical | `&`, `\|`, `!` |
-| Assignment | `:=` |
-| Delimiters | `(`, `)`, `[`, `]`, `,`, `;` |
-| Boolean Literals | `#1`, `#0` |
-| Range | ..` |
+- **Comparison:** `<`, `<=`, `>`, `>=`, `==`, `!=`
+- **Membership:** `=in`, `!in`
+- **Arithmetic:** `+`, `-`, `*`, `/`
+- **Logical:** `&`, `|`, `!`
+- **Assignment:** `:=`
+- **Delimiters:** `(`, `)`, `[`, `]`, `,`, `;`
+- **Boolean Literals:** `#1`, `#0`
+- **Range:** `..`
 
 ### Keywords
 
 VNM keywords are case-insensitive.
 
-Supported keywords include: `DO`, `FOR`, `WHILE`, `IF`, `THEN`, `ELIF`, `ELSE`, `FI`, `FUNCTION`, `RETURN`, `END`, `PRINT`, `PRINTLN`, and `VAR`.
+Supported keywords include:
+
+`DO`, `FOR`, `WHILE`, `IF`, `THEN`, `ELIF`, `ELSE`, `FI`, `FUNCTION`, `RETURN`, `END`, `PRINT`, `PRINTLN`, and `VAR`.
+
 For example, `DO`, `do`, and `Do` are recognized as the same keyword.
 
 ### Identifiers and Literals
 
-| Token Type | Description |
-| IDNUM | Numeric identifiers beginning with `#` followed by a letter |
-| IDBOOL| Boolean identifiers beginning with `?` followed by a letter |
-| IDVEC | Vector identifiers beginning with `v_` |
-| IDMAT | Matrix identifiers beginning with `M_` |
-| NUMBER| Integer literals containing one or more digits |
-| STRING| Text enclosed in double quotation marks |
+- **`IDNUM`** — Numeric identifiers beginning with `#` followed by a letter.
+- **`IDBOOL`** — Boolean identifiers beginning with `?` followed by a letter.
+- **`IDVEC`** — Vector identifiers beginning with `v_`.
+- **`IDMAT`** — Matrix identifiers beginning with `M_`.
+- **`NUMBER`** — Integer literals containing one or more digits.
+- **`STRING`** — Text enclosed in double quotation marks.
 
 ### String Escape Sequences
 
 The scanner supports the following escape sequences:
 
-| Sequence | Meaning |
-| `\n` | Newline |
-| `\t` | Tab |
-| `\"` | Double quotation mark |
-| `\\` | Backslash |
+- **`\n`** — Newline.
+- **`\t`** — Tab.
+- **`\"`** — Double quotation mark.
+- **`\\`** — Backslash.
 
 String tokens store their processed values without the surrounding quotation marks.
+
 
 ## Project Structure
 The project is organized into the following components:
