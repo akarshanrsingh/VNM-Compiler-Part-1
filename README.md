@@ -76,49 +76,43 @@ The scanner supports the following escape sequences:
 String tokens store their processed values without the surrounding quotation marks.
 
 ## Project Structure
-VNM-Compiler/
-│
-├── VNM.jj
-├── VNM.java
-├── VNMConstants.java
-├── VNMTokenManager.java
-│
-├── Token.java
-├── NumberToken.java
-├── StringToken.java
-├── IdNumToken.java
-├── IdBoolToken.java
-├── IdVecToken.java
-├── IdMatToken.java
-│
-├── ParseException.java
-├── TokenMgrError.java
-├── SimpleCharStream.java
-├── TestVNM.java
-│
-├── tests/
-│   ├── comments.in
-│   ├── comments.expected
-│   ├── identifiers.in
-│   ├── identifiers.expected
-│   ├── keywords.in
-│   ├── keywords.expected
-│   ├── numbers.in
-│   ├── numbers.expected
-│   ├── simpletokens.in
-│   ├── simpletokens.expected
-│   ├── strings1.in
-│   ├── strings1.expected
-│   ├── strings2.in
-│   ├── strings2.expected
-│   ├── strings3.in
-│   └── strings3.expected
-│
-├── makefile
-├── runtests
-├── t
-└── README.md
-```
+The project is organized into the following components:
+
+### 1. Scanner and Grammar Files
+
+| File | Description |
+| `VNM.jj` | JavaCC grammar defining lexical rules and token patterns. |
+| `VNM.java` | JavaCC-generated scanner entry class. |
+| `VNMConstants.java` | Defines token constants used by the scanner. |
+| `VNMTokenManager.java` | Handles token recognition and lexical processing. |
+| `SimpleCharStream.java` | Manages the input character stream. |
+
+### 2. Token Implementation
+
+| File | Description |
+| `Token.java` | Base class for representing tokens. |
+| `NumberToken.java` | Stores numeric token values. |
+| `StringToken.java` | Handles string values and escape sequences. |
+| `IdNumToken.java` | Represents numeric identifiers. |
+| `IdBoolToken.java` | Represents Boolean identifiers. |
+| `IdVecToken.java` | Represents vector identifiers. |
+| `IdMatToken.java` | Represents matrix identifiers. |
+
+### 3. Error Handling and Testing
+
+| File | Description |
+| `ParseException.java` | Defines parsing-related exceptions. |
+| `TokenMgrError.java` | Handles lexical errors. |
+| `TestVNM.java` | Provides the scanner testing interface. |
+| `tests/` | Contains test inputs and expected outputs. |
+
+### 4. Build and Automation
+
+| File | Description |
+| `makefile` | Automates project compilation. |
+| `runtests` | Runs the automated test suite. |
+| `t` | Supports individual test execution. |
+| `.gitignore` | Excludes generated and IDE-specific files from Git. |
 
 ## Implementation Details
 
