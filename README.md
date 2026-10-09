@@ -155,6 +155,7 @@ The supplied Makefile is intended to automate compilation of the scanner compone
 After compiling, execute:
 bash
 java -classpath . TestVNM
+
 Enter VNM language tokens to test lexical recognition.
 
 Example inputs:
@@ -168,10 +169,6 @@ while
 On Unix-like systems, press `Ctrl + D` to send the end-of-file signal and terminate interactive input.
 
 ## Testing
-
-
-## Testing
-
 The project includes an automated testing framework to validate the scanner's token recognition and lexical processing.
 
 Each test category contains three types of files:
@@ -193,6 +190,7 @@ make
 Execute the test suite:
 bash
 ./runtests
+
 The test scripts compare the scanner's generated output against the expected results and report differences.
 
 ### Test Categories
